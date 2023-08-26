@@ -40,7 +40,7 @@ async def powiadomienie():
                 conn.commit()
                 channel = client.get_channel(t[4])
                 await channel.send(f"{t[0]} wstawił nowy film.\n  {link}")
-            if data==t[1] and godzina>t[3]:
+            if data==t[2] and godzina>t[3]:
                 c.execute("UPDATE Channel SET data_p=? WHERE link=?",(data,zm_link))
                 c.execute("UPDATE Channel SET godzina=? WHERE link=?",(godzina,zm_link))
                 conn.commit()
