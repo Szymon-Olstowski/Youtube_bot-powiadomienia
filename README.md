@@ -8,4 +8,5 @@ Aby zadziało dobrze należy posiadać:
 - zainstlować ten panket pip install git+https://github.com/pishiko/pytube.git@42a7d8322dd7749a9e950baf6860d115bbeaedfc
 - należy zmienić kod w pliku C:\Users\nazwa_użytkownika\AppData\Local\Programs\Python\Python310\Lib\site-packages\pytube\innertube.py
 W podanym linku https://github.com/pytube/pytube/commit/c0d1aca42c4106e77ab4f8a0600737ea2ad27a96#diff-34b7de4e054a59b9c9a386a81fac050960951773737b50b5c8b746db6a364d47
+
 Prefix bota: p.
